@@ -161,16 +161,18 @@ aside {
 		}
 		&:after {
 			content: "\f0c9";
-			font-family: 'Font Awesome 5 Free';
+			font-family: 'FontAwesome';
 			font-size: 2rem;
 			cursor: pointer;
+			font-weight: 900;
 		}
 		&.active {
 			&:after {
 				content: "\f00d";
-				font-family: 'Font Awesome 5 Free';
+				font-family: 'FontAwesome';
 				font-size: 2rem;
 				cursor: pointer;
+				font-weight: 900;
 			}
 		}
 	}
